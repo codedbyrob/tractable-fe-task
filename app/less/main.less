@@ -1,0 +1,44 @@
+@font-stack: Helvetica, sans-serif;
+@primary-color: #999;
+
+body {
+  font-family: 10pt @font-stack;
+  color: @primary-color;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#grid {
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+
+.col {
+  background: grey;
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+.block {
+  width: 100%;
+  height: 10%;
+  background: red;
+  float: left;
+  margin: 0;
+  padding: 0;
+  transition: all;
+}
+
+.restart-game {
+  font-size: 1rem;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  -webkit-appearance: none;
+}
